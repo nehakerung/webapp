@@ -1,26 +1,9 @@
-from lib2to3.fixes.fix_input import context
-
 from django.shortcuts import render
-
-posts = [
-    {
-        'author': 'Neha',
-        'title' : 'First Post',
-        'content': 'lorem ipsum',
-        'date': '25 august'
-    },
-    {
-        'author': 'Nagma',
-        'title': 'Second Post',
-        'content': 'lorem ipsum',
-        'date': '23 September'
-    }
-]
-
+from .models import Post
 
 def home(request):
     context = {
-        'posts': posts
+        'posts': Post.objects.all()
     }
     return render(request,
                   'blog/home.html', context)
