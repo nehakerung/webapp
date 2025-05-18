@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "followed Tutorial @ https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog followed Tutorial @ https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehakerung/webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehakerung/webapp/issues"
+  },
+  "homepage": "https://github.com/nehakerung/webapp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
